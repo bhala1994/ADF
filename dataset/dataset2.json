@@ -1,0 +1,27 @@
+{
+	"name": "dataset2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedservice22",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": {
+					"value": "@concat('sample_', convertFromUtc(utcnow(), 'Pacific Standard Time'))",
+					"type": "Expression"
+				},
+				"folderPath": "dynamiccopy",
+				"container": "bhagyacontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

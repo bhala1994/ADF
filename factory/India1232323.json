@@ -1,0 +1,9 @@
+{
+	"name": "India1232323",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "dadf10db-b3cd-4d67-8025-989cd4cab441",
+		"tenantId": "3faac4b0-4154-4b41-8093-3511c9adff57"
+	}
+}

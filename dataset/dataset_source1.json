@@ -1,0 +1,19 @@
+{
+	"name": "dataset_source1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "azure_blodstorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "source1.txt",
+				"container": "bhagyacontainer"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
