@@ -1,0 +1,22 @@
+{
+	"name": "metadata_dataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "metadata_ls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "mycopy",
+				"container": "bhagyacontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
