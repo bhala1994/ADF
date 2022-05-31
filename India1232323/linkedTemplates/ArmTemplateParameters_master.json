@@ -1,0 +1,120 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "India1232323"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage3_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage4_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage5_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage6_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage7_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage8_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage9_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase2_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase3_connectionString": {
+			"value": ""
+		},
+		"AzureSqlMI1_connectionString": {
+			"value": ""
+		},
+		"LinkedService12thMay_connectionString": {
+			"value": ""
+		},
+		"actual_ls_connectionString": {
+			"value": ""
+		},
+		"azure_blodstorage_connectionString": {
+			"value": ""
+		},
+		"bhagya_ls_azureblobstorage_connectionString": {
+			"value": ""
+		},
+		"bhagya_ls_sqldb_connectionString": {
+			"value": ""
+		},
+		"bloblinkedservice_connectionString": {
+			"value": ""
+		},
+		"copydata_sink_ls_connectionString": {
+			"value": ""
+		},
+		"linkedserver2_connectionString": {
+			"value": ""
+		},
+		"linkedserver_sql_destination_connectionString": {
+			"value": ""
+		},
+		"linkedservice1_connectionString": {
+			"value": ""
+		},
+		"linkedservice11_connectionString": {
+			"value": ""
+		},
+		"linkedservice22_connectionString": {
+			"value": ""
+		},
+		"linkedservice_blob_connectionString": {
+			"value": ""
+		},
+		"linkedservice_destination1_connectionString": {
+			"value": ""
+		},
+		"ls_connectionString": {
+			"value": ""
+		},
+		"metadata_ls_connectionString": {
+			"value": ""
+		},
+		"newlinkerservice_connectionString": {
+			"value": ""
+		},
+		"linkedservice_venkat_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage10_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage11_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://covidreportingbhag.dfs.core.windows.net"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
